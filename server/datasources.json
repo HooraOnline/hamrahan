@@ -4,14 +4,14 @@
     "connector": "memory"
   },
   "bamizDS": {
-    "host": "localhost",
-    "port": 27017,
+    "host": "ds121603.mlab.com",
+    "port": 21603,
     "url": "",
-    "database": "hamrahYarDB",
-    "password": "",
+    "database": "hamrahan",
+    "password": "Hoora434343*",
     "name": "bamizDS",
     "user": "root",
-    "connector": "mongodb"
+    "connector": "mongodb" 
   },
   "storage": {
     "name": "storage",
