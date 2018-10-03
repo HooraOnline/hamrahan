@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "bamizDS"
+  },
+  "AccessToken": {
+    "dataSource": "bamizDS",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "bamizDS",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "bamizDS",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "bamizDS",
+    "public": false
+  },
+  "BankCard": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Member": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "IndexGenerator": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Bug": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "AppConfig": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "DynamicForm": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "Chat": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  }
+}
