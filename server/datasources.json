@@ -4,10 +4,10 @@
     "connector": "memory"
   },
   "bamizDS": {
-    "host": "ds123981.mlab.com",
-    "port": 23981,
+    "host": "ds121603.mlab.com",
+    "port": 21603,
     "url": "",
-    "database": "bamizdb",
+    "database": "hamrahan",
     "password": "Hoora434343*",
     "name": "bamizDS",
     "user": "root",
