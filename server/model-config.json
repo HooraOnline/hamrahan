@@ -80,5 +80,23 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Phonebook": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "News": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Video": {
+    "dataSource": "bamizDS",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
